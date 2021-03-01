@@ -3,11 +3,11 @@
 -
 ## VON Network Setup Requirements 
 
-- Machine requirements
---Ubuntu 18.04.1 LTS
---Git 
---Docker
--Docker-compose
+* **Machine requirements**: 
+  *  Ubuntu 18.04.1 LTS
+  * Git 
+  * Docker
+  * Docker-compose
 
 ## Install Git
 ```python
