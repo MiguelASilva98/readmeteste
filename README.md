@@ -20,7 +20,7 @@ sudo apt-get install git
 git --version
 ```
 ## Install and config Docker
-Referrence: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+Reference: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 ```python
 sudo apt update
 ```
@@ -77,5 +77,25 @@ Use below command to start nodes of the network:
 ```python
 sudo ./manage start
 ```
-
 All VON-Network nodes should now be active.
+
+## Run Agents 
+
+* **Agents requirements**: 
+  * Von-network running
+  
+## Install Agents
+Reference: https://github.com/hyperledger/aries-cloudagent-python/blob/main/demo/README.md#running-in-docker
+```python
+git clone https://github.com/hyperledger/aries-cloudagent-python
+```
+```python
+cd aries-cloudagent-python/demo
+```
+```python
+./run_demo faber
+```
+In a new terminal, change directory into aries-cloudagent-python directory of your clone of this repository. Start the alice agent by issuing the following command:
+```python
+./run_demo alice
+```
