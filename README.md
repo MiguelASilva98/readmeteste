@@ -65,6 +65,7 @@ Use below command to download code to your local:
 ```python
 git clone https://github.com/bcgov/von-network.git
 ```
+Go to the directory below
 ```python
 cd von-network/
 ```
