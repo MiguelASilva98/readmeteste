@@ -4,7 +4,7 @@
 ## VON Network Setup Requirements 
 
 * **Machine requirements**: 
-  *  Ubuntu 18.04.1 LTS
+  * Ubuntu 18.04.1 LTS
   * Git 
   * Docker
   * Docker-compose
@@ -13,7 +13,7 @@
 ```python
 sudo apt-get update
 sudo apt-get install git
-git — version
+git -- version
 ```
 ## Install and config Docker
 ```python
@@ -39,7 +39,7 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 #check version
-docker — version
+docker --version
 ```
 ## Install Docker-compose
 ```python
