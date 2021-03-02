@@ -86,12 +86,18 @@ All VON-Network nodes should now be active.
   
 ## Install Agents
 Reference: https://github.com/hyperledger/aries-cloudagent-python/blob/main/demo/README.md#running-in-docker
+
+Git Repository: https://github.com/hyperledger/aries-cloudagent-python
+
+Use below command to download code to your local machine:
 ```python
 git clone https://github.com/hyperledger/aries-cloudagent-python
 ```
+Go to the directory
 ```python
 cd aries-cloudagent-python/demo
 ```
+Now it is possible to initialize the agent
 ```python
 ./run_demo faber
 ```
