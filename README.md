@@ -1,8 +1,8 @@
 # Agents
-## Agents Description
+### Agents Description
 -
-### Pre-Requesites 
-## VON Network Setup Requirements 
+# Pre-Requesites 
+### VON Network Setup Requirements 
 
 * **Machine requirements**: 
   * Ubuntu 18.04.1 LTS
@@ -10,7 +10,7 @@
   * Docker
   * Docker-compose
 
-## Install Git
+### Install Git
 ```python
 sudo apt-get update
 ```
@@ -20,7 +20,7 @@ sudo apt-get install git
 ```python
 git --version
 ```
-## Install and config Docker
+### Install and config Docker
 Reference: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 ```python
 sudo apt update
@@ -45,7 +45,7 @@ sudo systemctl status docker
 ```
 
 
-## Install Docker-compose
+### Install Docker-compose
 ```python
 sudo curl -L “https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose
 ```
@@ -57,7 +57,7 @@ docker-compose --version
 ```
 Docker compose’s version should be shown.
 
-## Build VON-Network
+### Build VON-Network
 If all of the previous steps have been completed, it is now possible to initialize a Von-Network.
 
 Git Repository: https://github.com/bcgov/von-network
@@ -85,7 +85,7 @@ All VON-Network nodes should now be active.
 * **Agents requirements**: 
   * Von-network running
   
-## Install Agents
+### Install Agents
 Reference: https://github.com/hyperledger/aries-cloudagent-python/blob/main/demo/README.md#running-in-docker
 
 Git Repository: https://github.com/hyperledger/aries-cloudagent-python
