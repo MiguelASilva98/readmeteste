@@ -46,11 +46,11 @@ sudo systemctl status docker
 
 ## Install Docker-compose
 ```python
-sudo curl -L “https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose
+sudo curl -L “https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-docker-compose — version
+docker-compose --version
 ```
 Docker compose’s version should be shown.
 
@@ -63,13 +63,16 @@ Use below command to download code to your local:
 ```python
 git clone https://github.com/bcgov/von-network.git
 ```
+```python
+cd von-network/
+```
 Use below command to build nodes of the network:
 ```python
-./manage build
+sudo ./manage build
 ```
 Use below command to start nodes of the network:
 ```python
-./manage start
+sudo ./manage start
 ```
 
 All VON-Network nodes should now be active.
