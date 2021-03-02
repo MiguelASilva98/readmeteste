@@ -47,9 +47,11 @@ sudo systemctl status docker
 ## Install Docker-compose
 ```python
 sudo curl -L “https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)” -o /usr/local/bin/docker-compose
-
+```
+```python
 sudo chmod +x /usr/local/bin/docker-compose
-
+```
+```python
 docker-compose --version
 ```
 Docker compose’s version should be shown.
