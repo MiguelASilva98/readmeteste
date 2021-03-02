@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install git
 ```
 ```python
-git -- version
+git --version
 ```
 ## Install and config Docker
 Referrence: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
