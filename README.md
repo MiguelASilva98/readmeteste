@@ -12,7 +12,11 @@
 ## Install Git
 ```python
 sudo apt-get update
+```
+```python
 sudo apt-get install git
+```
+```python
 git -- version
 ```
 ## Install and config Docker
