@@ -59,13 +59,12 @@ docker-compose --version
 Docker compose’s version should be shown.
 
 ### Install MongoBD
-```python
-```
 
+Reference: https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04-source
 
 ### Install Python
-```python
-```
+
+Reference: https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-18-04-quickstart
 
 ## Build VON-Network
 If all of the previous steps have been completed, it is now possible to initialize a Von-Network.
