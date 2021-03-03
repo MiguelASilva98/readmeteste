@@ -58,6 +58,15 @@ docker-compose --version
 ```
 Docker compose’s version should be shown.
 
+### Install MongoBD
+```python
+```
+
+
+### Install Python
+```python
+```
+
 ## Build VON-Network
 If all of the previous steps have been completed, it is now possible to initialize a Von-Network.
 
