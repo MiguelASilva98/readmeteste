@@ -1,6 +1,5 @@
-# Agents
-### Agents Description
--
+# Identity
+Repository of 5G ZORRO Identity and Permissions Manager components source code.
 
 * **Machine requirements**: 
   * Ubuntu 18.04.1 LTS
@@ -107,11 +106,36 @@ Go to the directory
 ```python
 cd aries-cloudagent-python/demo
 ```
-Now it is possible to initialize the agent
+Now it's possible to initialize the agents. To run the Issuer Agent type:
 ```python
 ./run_demo faber
 ```
-In a new terminal, change directory into aries-cloudagent-python directory of your clone of this repository. Start the alice agent by issuing the following command:
+Issuer Agent is running on port 8021.
+In a new terminal, change directory into aries-cloudagent-python directory of your clone of this repository. Start the Holder Agent by issuing the following command:
 ```python
 ./run_demo alice
 ```
+Holder Agent is running on port 8031.
+Now perform the same for the Verifier Agent:
+```python
+./run_demo acme
+```
+Verifier Agent is running on port 8041.
+
+## Run Identity
+* **Identity requirements**: 
+  * Von-network running
+  * Agents running
+  * Mongo active
+
+Before running this project, you must create an .env file, based on the .env.template available in identity/src. Further detailing can be found in said file.
+
+To run the Identity Controllers, go to identity/src folder, then type in the command line:
+```
+docker-compose up --build
+```
+To stop the project, simply type:
+```
+docker-compose down
+```
+The Administrator and Trading Provider Controllers should now be available. To access Trading Provider, simply type http://localhost:6800/ on your preferred browser.
