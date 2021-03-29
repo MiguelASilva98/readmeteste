@@ -2,7 +2,7 @@
 
 There are four types of agents that we can use in Identity. We have **AdminAgent**, **RegulatorAgent**, **ProviderAgent**, and **ConsumerAgent**.
 
-## Regulator Agent
+## Regulator Agent (Issuer) 
 
 This agent should be started with the below parameters:
 
@@ -10,7 +10,7 @@ This agent should be started with the below parameters:
 
 For more info about RegulatorAgent:  https://github.com/MiguelASilva98/readmeteste/wiki/Agent-Startup-and-Settings#regulator-agent-issuer
 
-## Provider Agent
+## Holder Agent (Provider)
 
 This agent should be started with the below parameters:
 
@@ -18,7 +18,7 @@ This agent should be started with the below parameters:
 
 For more info about ProviderAgent:  https://github.com/MiguelASilva98/readmeteste/wiki/Agent-Startup-and-Settings#holder-agent-provider
 
-## Consumer Agent
+## Verifier Agent (Consumer)
 
 This agent should be started with the below parameters:
 
